@@ -1,0 +1,9 @@
+How to generate a .gitignore file in IntelliJ Idea using a plug-in?
+
+1. First install (already done now) idea-gitignore-2.4.0 or later version from https://plugins.jetbrains.com/plugin/7495--ignore
+2. Then go to IntelliJ Idea (open a project or create one)
+3. Go to File/Settings/Plugins and install by browsing to the download folder where idea-gitignore-2.4.0 is saved
+4. Restart IntelliJ Idea for changes to take effect
+5. Then right-click on project's folder from within IntelliJ Idea menu (in the left part of the window)
+	and select New/.ignore file/.gitignore file (Git) and search for Java, then select Java and click Generate
+6. IntelliJ Idea will generate a .gitignore file within the given project.	

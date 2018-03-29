@@ -1,0 +1,26 @@
+1. how to check what is in your Git config file and more:
+- write in the Git CMD: git config --list
+
+2. how to check your global user name?
+- write in the Git CMD: git config user.name (or you can also use command from 1.)
+
+3. how to check your global email address?
+- write in the Git CMD: git config user.email (or you can also use command from 1.)
+
+4. how to change your global user name?
+- write in the Git CMD: git config --global user.name "{enter your user name}"
+
+5. how to change your global user email?
+- write in the Git CMD: git config --global user.email {enter your user email}
+
+6. how to set a password to be global and remembered for a specific period of time?
+- write in the Git CMD: git config --global credential.helper cache 
+(Note: timeout is set to 900 secs (15 min) and can be changed by typing --timeout {secs})
+
+7. how to set a password to be global and remembered forever in a file on you OS?
+- write in the Git CMD: git config --global credential.helper store --file ~/.my-credentials
+(Note: the file saved with the password is plain text and could be hacked! You can change the 
+default path where the file with the password is saved like this: --file {enter path to location})
+
+More info on 6. and 7. could be found here: https://git-scm.com/book/gr/v2/Git-Tools-Credential-Storage
+
